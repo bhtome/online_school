@@ -40,3 +40,5 @@ gem 'spring',        group: :development
 
 gem 'rails_12factor', group: :production
 
+gem 'slim-rails'
+
