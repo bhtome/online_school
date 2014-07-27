@@ -42,3 +42,5 @@ gem 'rails_12factor', group: :production
 
 gem 'slim-rails'
 
+gem 'rest-client', '~> 1.7.2'
+
