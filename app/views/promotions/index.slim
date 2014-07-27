@@ -1,1 +1,28 @@
-Promotions Page
+doctype html
+html
+	head
+		title Promotions
+
+	body
+		h1 Promotions
+
+		/h2 = @promotions
+
+		- for promotion in @promotions do
+			h3 Title: #{promotion['title']}
+
+			
+			.desc 	#{promotion['description']}
+
+			img src = promotion['photo_url']
+
+			.saleprice Discount Price: $#{promotion['price']}
+
+			.price Price: $#{promotion['original_price']}
+
+			
+
+
+		
+
+
