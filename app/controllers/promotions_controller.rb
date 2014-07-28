@@ -2,7 +2,7 @@ class PromotionsController < ApplicationController
 
 	def index
 
-		raise params.inspect
+		# raise params.inspect
 
 	 	response = RestClient.get "http://www.webappcamp.ws/api/v0/promotions"
 
